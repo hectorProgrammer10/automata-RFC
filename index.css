@@ -1,0 +1,54 @@
+.clores{
+  background-color: rgba(151, 206, 61, 0.4); /*3*/
+  background-color: rgba(13, 104, 175, 0.4); /*2*/
+  background-color: rgba(210, 91, 69, 0.4); /*1*/
+}
+
+.borde{
+  border: 1px solid black;
+}
+.canva{
+  height: 400px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#canvaAutomata{
+ display: flex;
+ align-items: center;
+
+}
+.estados{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.raya{
+  background-color: black;
+  height: 1px; 
+  width: 100px;
+  text-align: center;
+}
+
+#esF{
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+}
+
+#esI {
+  width: 0;
+  height: 0;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  border-bottom: 44px solid rgba(0, 0, 0, 0.2);
+  transform: rotate(90deg);
+}
